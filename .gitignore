@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Output files (optional, but good practice)
+*.log
+*.out
