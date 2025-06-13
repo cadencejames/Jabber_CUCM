@@ -1,5 +1,12 @@
 # CUCM Jabber/CSF Provisioning Tool
 
+![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
+![License](https://img.shields.io/github/license/cadencejames/Jabber_CUCM)
+![Last Commit](https://img.shields.io/github/last-commit/cadencejames/Jabber_CUCM)
+![Contributors](https://img.shields.io/github/contributors/cadencejames/Jabber_CUCM)
+
+---
+
 This repository contains a Python script designed to automate the provisioning of Cisco Jabber Client Services Framework (CSF) devices for users in a Cisco Unified Communications Manager (CUCM) environment. The tool uses the AXL SOAP API to perform administrative tasks, reducing manual effort and ensuring consistency.
 
 It supports both single-user provisioning and bulk provisioning from a CSV file.
