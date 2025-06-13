@@ -9,8 +9,7 @@ env/
 
 # IDE / Editor specific
 .vscode/
-.idea/
 
-# Output files (optional, but good practice)
+# Output files
 *.log
 *.out
