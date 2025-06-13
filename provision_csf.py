@@ -49,7 +49,7 @@ def login():
 def sanitize_userid(userid):
     # Checks if the userid is safe. Returns the userid if it exists, but exits the script if the input is invalid.
     clean_userid = userid.strip()
-    if not re.match(r'^[a-zA-Z0-9]+$', clean_userid):
+    if not re.match(r'^[a-zA-Z0-9_.-]+$', clean_userid):
         print(f"Error: Invalid User ID format '{userid}'. Skipping this user.")
         return None
     return clean_userid
